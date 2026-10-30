@@ -1,0 +1,192 @@
+
+/* General Website Styling */
+body {
+    background-color: #e0f2fe;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #172554;
+}
+
+/* Main Heading */
+h1 {
+    color: #172554;
+    text-align: center;
+}
+
+/* Paragraph */
+p {
+    color: #334155;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+}
+
+/* Header */
+header {
+    background-color: #1e3a8a;
+    padding: 15px;
+}
+
+header h1 {
+    color: white;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+nav a:hover {
+    color: #7dd3fc;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #bae6fd;
+    text-align: center;
+    padding: 60px 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+}
+
+.hero h2 {
+    color: #172554;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: #334155;
+    font-size: 18px;
+}
+
+.hero-btn {
+    display: inline-block;
+    background-color: #1e40af;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.hero-btn:hover {
+    background-color: #172554;
+}
+
+/* Course Cards Container */
+.course-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Individual Course Card */
+.card {
+    flex: 1 1 calc(33.333% - 20px);
+    min-width: 0;
+    box-sizing: border-box;
+    background-color: #f0f9ff;
+    border: 2px solid #93c5fd;
+    border-radius: 12px;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.card h2 {
+    color: #1e3a8a;
+}
+
+.card:hover {
+    background-color: #dbeafe;
+    border-color: #2563eb;
+}
+
+/* Popular Course */
+.popular {
+    border: 3px solid #1d4ed8;
+    background-color: #dbeafe;
+}
+
+.popular h3 {
+    color: #1d4ed8;
+    font-size: 16px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #1e3a8a;
+    border-radius: 12px;
+}
+
+.about-text,
+.about-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #eff6ff;
+    border-radius: 12px;
+}
+
+.about h2 {
+    color: #1e3a8a;
+}
+
+.about p {
+    color: #334155;
+    line-height: 1.6;
+}
+/* Contact Section */
+.contact{
+    background-color: #1e3a8a;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.contact h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: #e0f2fe;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.contact a{
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+footer p {
+    margin: 8px;
+    color: white;
+    padding: 10px;
+}
